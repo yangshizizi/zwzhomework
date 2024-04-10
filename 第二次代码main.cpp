@@ -23,6 +23,7 @@ int main() {
 		if(res<f[i])res=f[i],at=temp,ed=i;
 		 
 	}
+	if(res<0)res=0;
 	cout<<res<<endl;
 	return 0;
 }
